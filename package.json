@@ -22,7 +22,8 @@
     "execute": "rm -rf ./dist && yarn build && node ./dist/index.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:debug": "node --inspect-brk -r ts-node/register node_modules/.bin/jest --runInBand"
+    "test:debug": "node --inspect-brk -r ts-node/register node_modules/.bin/jest --runInBand",
+    "eject:danger": "node ./scripts/create-from-template.js"
   },
   "dependencies": {}
 }
