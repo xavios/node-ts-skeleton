@@ -3,5 +3,7 @@
   "ext": "ts",
   "ignore": ["src/**/*.spec.ts"],
   "exec": "node --inspect -r ts-node/register ./src/index.ts",
-  "verbose": false
+  "verbose": false,
+  "delay": 500,
+  "restartable": "rs"
 }
