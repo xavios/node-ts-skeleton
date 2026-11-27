@@ -1,4 +1,4 @@
-import { Skeleton } from "./dummy-module";
+import { Skeleton } from "./dummy-module/index.js";
 
 try {
   main();

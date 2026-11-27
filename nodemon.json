@@ -1,8 +1,8 @@
 {
   "watch": ["src"],
   "ext": "ts",
-  "ignore": ["src/**/*.spec.ts"],
-  "exec": "node --inspect -r ts-node/register ./src/index.ts",
+  "ignore": ["src/**/*.test.ts"],
+  "exec": "node --inspect --import tsx ./src/index.ts",
   "verbose": false,
   "delay": 500,
   "restartable": "rs"
